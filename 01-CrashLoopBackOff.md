@@ -11,9 +11,9 @@ The pod starts but repeatedly crashes.
 
 ## Troubleshooting
 
-kubectl get pods
-kubectl describe pod <pod-name>
-kubectl logs <pod-name>
+kubectl get pods  
+kubectl describe pod <pod-name>  
+kubectl logs <pod-name>  
 kubectl logs <pod-name> --previous
 
 ## Solution
