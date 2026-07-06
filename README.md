@@ -1,4 +1,4 @@
-                                                   **Kubernetes Troubleshooting Guide**
+                                                   __Kubernetes Troubleshooting Guide__
 # Overview
 This repository contains common Kubernetes issues, troubleshooting steps, useful commands, and solutions that DevOps engineers frequently encounter in production environments.
 
