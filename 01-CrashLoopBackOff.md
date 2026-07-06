@@ -1,22 +1,22 @@
-## CrashLoopBackOff
+# CrashLoopBackOff
 
-# Problem
+## Problem
 The pod starts but repeatedly crashes.
 
-# Causes
+## Causes
 - Application error
 - Incorrect configuration
 - Missing environment variables
 - Database connection failure
 
-# Troubleshooting
+## Troubleshooting
 
 kubectl get pods
 kubectl describe pod <pod-name>
 kubectl logs <pod-name>
 kubectl logs <pod-name> --previous
 
-# Solution
+## Solution
 - Check application logs
 - Verify ConfigMaps and Secrets
 - Fix application errors
